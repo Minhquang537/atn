@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		.wrapper{
+			width: 1000px;
+			margin: auto;
+		}
+		.header{
+			height: 55px;
+			margin: auto;	
+		}
+		.menu{
+			height: 30px;
+			background-color:black;
+		}
+		.menu ul li{
+			list-style: none;
+			text-align: center;
+			display: inline-table;
+		}
+		.menu ul li a{
+			text-decoration:none;
+			font-size: 16px;
+			margin: 30px;
+			padding: 5px;
+			text-transform: uppercase;
+			color: White;
+		}
+		.menu a:hover {
+			text-decoration: underline;
+		}
+		.banner img{
+			width: 1000px;
+			height: 500px;
+		} 
+		.content{
+			height: 800px;
+		}
+		.left{
+			width: 20%;
+			background-color: gray;
+			float: left;
+			height: 800px;
+		}
+		.left>p{
+			background-color: white;
+			font-size: 22px;
+			font-family: arial;
+			text-align: center;			
+		}
+		.category ul li{
+			list-style: none;
+		}
+		.category ul li a{
+			color: white;
+			font-size: 20px;
+			text-decoration: none;
+			font-family: comic sans Ms;
+		}
+		.category a:hover{
+			text-decoration: underline;
+		}
+		.brand ul li{
+			list-style: none;
+		}
+		.brand ul li a{
+			color: white;
+			font-size: 20px;
+			text-decoration: none;
+			font-family: comic sans Ms;
+
+		}
+		.brand a:hover{
+			text-decoration:underline;
+		}
+		.right{
+			width: 80%;
+			height: 800px;
+			float: right;
+		}
+		.right>p{
+			text-align: center;
+			font-size:30px ;
+			background-color: blueviolet ;
+		}
+		.single-product{
+			float: left;
+			margin-left: 30px;			
+		}
+		.single-product img{
+			border: 2px solid black;
+		}
+		#search{
+			padding-top: 10px;
+		}
+		#search input[type=text]{
+			width: 300px;
+			height: 30px;
+		}
+		#search input[type=submit]{
+		height:30px
+	    }
+	    . product>h3 {
+	    	
+	    }
+
+       .footer{
+       	margin: auto;
+       	padding: auto;
+       	box-sizing: border-box;
+       	font-family:comic sans Ms ;
+       	display: flex;
+       	align-items: center;
+       	background-color: black;
+       	color: white;
+       }
+       .noidung>p {
+       	text-align: left;
+       	font-size: 10px;
+       	margin: 10px;
+       	padding: 5px;
+       }
+       .duongdan>h2{
+       	text-align: center;
+       }
+       .duongdan ul li{
+       	list-style: none;
+       }
+       .duongdan ul li a{
+			color: blueviolet;
+			text-decoration: none;
+			text-align: left;
+		}
+       .duongdan a:hover{
+       	text-decoration: underline;
+       }
+       .lienlac{
+       	text-align: left;
+       }
+       .lienlac>h2{
+       	text-align: center;
+       }
+       .lienlac ul li{
+       list-style: none;
+       }
+       .lienlac ul li a {
+       	text-decoration: none;
+       }
+       .lienlac ul li a:hover{
+       	text-decoration: underline;
+       }
+
+		
+	</style>
+</head>
+<body>
+	<!--dùng thẻ div để phân chia bố cục -->
+<div class="wrapper">
+<div class="header">
+ <div id="search">
+	<from>
+      <input type="text" name="" placeholder="search" >
+      <input type="submit" name="">
+    </from>
+ </div>
+<div class="menu">
+<ul>
+<li><a href=""> Trang chủ </a></li>
+<li><a href="https://123website.com.vn/danh-muc-san-pham/mau-website-thong-tin/mau-website-gioi-thieu-san-pham/"> Giới thiệu </a></li>
+<li><a href=""> Liên hệ</a></li>
+<li><a href="file:///E:/Sublime%20Text/buoi7html.html">Đăng Nhập</a></li>
+<li><a href="file:///E:/Sublime%20Text/baitapbuoi7html.html">Đăng ký tài khoản</a></li>
+</ul>
+</div>
+<div class="banner">        
+    <img src="https://channel.mediacdn.vn/thumb_w/640/2020/8/24/photo-3-15982644702929952797.jpg" alt="Slideshow Image 1" />
+ </div>
+<div class="content">
+<!-- Nếu sử dụng layout 2 cột thì phần content chúng ta chia làm 2-->
+<div class="left">
+<p> Loại sản phẩm </p>
+<div class="category"> 
+<ul>
+<li><a href=""> Hoodie </a> </li>
+<li><a href=""> Áo Phông </a></li>
+<li><a href=""> Quần Jean </a></li>
+</ul>
+</div>
+<p> Thương hiệu </p>
+<div class="brand"> 
+<ul>
+<li><a href=""> Swe </a></li>
+<li><a href=""> Rick Owen </a></li>
+<li><a href=""> Gucci </a></li>
+<li><a href=""> Supreme</a></li>
+</ul>
+</div>
+</div>
+<div class="right">
+	<!-- hiển thị sản phẩm ở đây-->
+<p> Tất cả sản phẩm ở đây </p>
+<div class=" product">
+<div class="single-product">
+<h3> Áo Phông </h3>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCjFuv2O2jgHxbdIiro0z1h5iHu51qOj_EMQ&usqp=CAU"style="width: 200px;height: 200px;">
+<p> gia tien:350.000đ</p>
+<p><a href="">chi tiet</a></p>
+</div>
+<div class="single-product">
+<h3> Áo Phông </h3>
+<img src="https://cdn.shopify.com/s/files/1/1218/3578/products/assets_2Fimage_2F5292325-0f55a20a-d28c-4fc8-8e60-73713bcff774-resized_1024x1024.jpg?v=1632702921"style="width: 200px;height: 200px;">
+<p> gia tien:200.000đ </p>
+<p><a href="">chi tiet</a></p>
+</div>
+<div class="single-product">
+<h3> Quần jean  </h3>
+<img src="https://cf.shopee.vn/file/9e23fab8593605dba7290e5c81e91cbc"style="width: 200px;height: 200px;">
+<p> gia tien:400.000đ </p>
+<p><a href="">chi tiet</a></p>
+</div>
+<div class="single-product">
+<h3> Quần jean  </h3>			
+<img src="https://salt.tikicdn.com/ts/product/ba/8f/24/ab811afd0dee3b4dbee63f7a70ecc266.jpg"style="width: 200px;height: 200px;">
+<p> gia tien:400.000đ </p>
+<p><a href="">chi tiet</a></p>
+</div>
+<div class="single-product">
+<h3> Hoodie  </h3>
+<img src="https://cf.shopee.vn/file/dae4c9c50e9504423efab7e01f830eb1_tn"style="width: 200px;height: 200px;">
+<p> gia tien:400.000đ </p>
+<p><a href="">chi tiet</a></p>
+</div>
+<div class="single-product">
+<h3> Hoodie  </h3>
+<img src="hoodie.jpg" style="width:200px;height:200px;">
+<p> gia tien:400.000đ </p>
+<p><a href="">chi tiet</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+ <div class="noidung">
+ <p> cảm ơn bạn đã ghé thăm trang web của chúng tôi. Để được tư vấn tốt hơn hãy liên hệ chúng tôi qua hotline </p>
+ </div >
+ <div class="duongdan ">
+ <h2> Đường dẫn</h2>
+<ul>
+<li><a href="file:///E:/Sublime%20Text/demobuoi8.html"> Trang chủ </a></li>
+<li><a href="https://123website.com.vn/danh-muc-san-pham/mau-website-thong-tin/mau-website-gioi-thieu-san-pham/"> Giới thiệu </a></li>
+<li><a href="file:///E:/Sublime%20Text/buoi7html.html">Đăng Nhập</a></li>
+<li><a href="file:///E:/Sublime%20Text/baitapbuoi7html.html">Đăng ký tài khoản</a></li>
+</ul>	
+</div>
+<div class="lienlac ">
+<h2> Liên lạc</h2>
+<ul>
+<li>Đường Hoàng Quốc Việt, Thành Phố Hà Nội ,Việt Nam </li>
+<li><a href="">+84 123 222 333</a></li>
+<li><a href="">+84 333 555 111</a></li>
+<li><a href="">quang1234@gmail.com</a></li>
+</ul>
+</div>	
+ </div>
+</div>
+</div>
+
+	</div>
+
+
+</body>
+</html>
