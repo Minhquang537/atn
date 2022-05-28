@@ -1,3 +1,3 @@
 <?php 
-include_one("trangchu.html");
+include_once("trangchu.html");
 ?>
